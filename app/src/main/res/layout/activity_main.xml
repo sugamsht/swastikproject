@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
+    android:gravity="center|top"
+    android:background="@drawable/bgl"
     tools:context="com.sanjogstha.np.swastik1.MainActivity">
 
    <TextView
@@ -13,6 +14,13 @@
        android:text="@string/swastik_college"
        android:textStyle="bold"
        android:layout_marginTop="20dp"/>
+
+   <ImageView
+       android:layout_width="192dp"
+       android:layout_height="64dp"
+       android:background="@drawable/op"
+       android:contentDescription="@string/image"
+       />
 
    <EditText
        android:layout_width="match_parent"
@@ -26,9 +34,14 @@
        android:inputType="textWebPassword"
        android:hint="@string/password"/>
 
+
    <Button
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
+       android:layout_width="137dp"
+       android:layout_height="55dp"
        android:id="@+id/submitLogin"
-       android:text="@string/login"/>
+       android:background="@drawable/round_button"
+       android:textColor="@color/white"
+       android:text="@string/login"
+       />
+
 </LinearLayout>

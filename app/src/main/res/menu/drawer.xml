@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.alexzh.navigationdrawertutorial.MainActivity">
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/general">
+        <item
+            android:id="@+id/item_faculty"
+            android:title="@string/faculty" />
+        <item
+            android:id="@+id/item_gallery"
+            android:title="@string/gallery" />
+        <item
+            android:id="@+id/item_programs"
+            android:title="@string/programs" />
+        <item
+            android:id="@+id/item_contact_us"
+            android:title="@string/contact_us" />
+        <item
+            android:id="@+id/item_about_us"
+            android:title="@string/about_us" />
+    </group>
+
+    <group android:id="@+id/special">
+        <item
+            android:id="@+id/item_settings"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="@string/contact_us" />
+
+        <item
+            android:id="@+id/item_location"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="@string/locate_us"/>
+    </group>
+</menu>
